@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title> quiz  </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<div class="question-container">
+    <div class="question-header" id="question_container">
+
+        <h1>Write question and answer for MCQ</h1>
+
+        Question  <br>
+        <textarea name="question_text" id="question_text" cols="30" rows="3"></textarea>
+
+        <div class="question-body">
+
+            <ul class="answer" id="answer">
+                Answer A  <br>
+                <textarea name="answer_a" id="answer_a" cols="30" rows="3"></textarea>
+            
+                <br> Answer B  <br>
+                <textarea name="answer_b" id="answer_b" cols="30" rows="3"></textarea>
+            
+                <br>Answer C  <br>
+                <textarea name="answer_c" id="answer_c" cols="30" rows="3"></textarea>
+            
+                <br>Answer D  <br>
+                <textarea name="answer_d" id="answer_d" cols="30" rows="3"></textarea>
+            
+                <br>
+                <label for="final_answer">  Right Answer : </label>
+                <input type="radio" class="final_answer" id="a"> A <input type="radio" class="final_answer" id="b"> B <input type="radio" class="final_answer" id="c"> C <input type="radio" class="final_answer" id="d"> D   
+            </ul>
+
+            <button class="submit" id="insert_Btn" class="insert_Btn" >Insert</button>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

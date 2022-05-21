@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+   
+   *{
+       box-sizing: border-box;
+
+   }
+   body{
+       font-family: 'Poppins','sans-serif';
+       margin: 0%;
+       background-color:gray;
+       min-height: 100vh;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .quiz-container{
+       background-image: white;
+       border-radius: 10px;
+       box-shadow: 0 0 10px 5px rgb(0, 0, 0,0.5);
+       width: 1200px;
+       height: 800px;
+       max-width: 100%;
+   }
+   .quiz-header{
+       padding: 4rem;
+   }
+
+   ul{
+       list-style-type: none;
+       padding: 0px;
+   }
+
+   h2{
+       margin: 0px;
+       text-align: left;
+       padding: 1rem;
+   }
+
+   h3{
+    margin: 0px;
+    text-align: center;
+    padding: 1rem;
+   }
+
+
+   ul li{
+    list-style-type: none;
+     margin: 1rem 0;
+
+   }
+
+    ul li label{
+
+        cursor: pointer;
+    }
+
+
+   button{
+       background-color: antiquewhite;
+       border: none;
+       color: rgb(8, 0, 0);
+       padding: 1rem;
+       display: block;
+       font-family: inherit;
+       font-size: 1.5rem;
+       cursor: pointer;
+       background-color: rgb(166, 166, 240);
+
+   }
+   button:hover{
+
+    background-color: rgb(187, 120, 33);
+   }
+
+   .question-container{
+
+    background-color: white;
+    padding: 15rem;
+    
+
+   }
+
+   .question-header{
+       font-size: 1.5rem;
+   }
+
+   .question_text{
+       padding: 0.8rem;
+      
+   }
+
+   .answer_a{
+    padding: 0.5rem;
+    
+   }
+
+   textarea {
+    font-size:30px;
+}
